@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="102.0" layoutY="31.0" prefHeight="55.0" prefWidth="171.0" text="CAJA FUERTE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="butChange" layoutX="134.0" layoutY="215.0" mnemonicParsing="false" onAction="#switchWindow" prefHeight="17.0" prefWidth="106.0" style="-fx-background-color: blue;" text="Abrir" textFill="WHITE" />
+      <PasswordField fx:id="pasCode" layoutX="113.0" layoutY="152.0" onAction="#enterPassword" />
+      <Text layoutX="82.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Escriba la combinacion para ingresar" textAlignment="CENTER" wrappingWidth="209.16015625" />
+   </children>
+</Pane>
